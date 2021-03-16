@@ -15,7 +15,7 @@ class NetheriteLeggings extends Armor
     }
 
     public function getDefensePoints() : int{
-        return 6;
+        return 10;
     }
 
     public function getMaxDurability() : int{
