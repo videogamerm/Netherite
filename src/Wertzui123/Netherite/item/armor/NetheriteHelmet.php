@@ -15,7 +15,7 @@ class NetheriteHelmet extends Armor
     }
 
     public function getDefensePoints() : int{
-        return 3;
+        return 5;
     }
 
     public function getMaxDurability() : int{
