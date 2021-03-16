@@ -57,7 +57,7 @@ class EventListener implements Listener
             $modifier += 1;
         }
         if ($modifier > 0) {
-            $event->setKnockback($event->getKnockback() - $event->getKnockBack() * ($modifier / 10));
+            $event->setKnockback($event->getKnockback() - $event->getKnockBack() * ($modifier / 2));
         }
     }
 
