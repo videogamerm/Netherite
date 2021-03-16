@@ -18,7 +18,7 @@ class TieredTool extends \pocketmine\item\TieredTool
             self::TIER_STONE => 132,
             self::TIER_IRON => 251,
             self::TIER_DIAMOND => 1562,
-            self::TIER_NETHERITE => 2032
+            self::TIER_NETHERITE => 8000
         ];
 
         if(!isset($levels[$tier])){
@@ -35,7 +35,7 @@ class TieredTool extends \pocketmine\item\TieredTool
             self::TIER_STONE => 6,
             self::TIER_IRON => 7,
             self::TIER_DIAMOND => 8,
-            self::TIER_NETHERITE => 9
+            self::TIER_NETHERITE => 10
         ];
 
         if(!isset($levels[$tier])){
@@ -51,7 +51,7 @@ class TieredTool extends \pocketmine\item\TieredTool
             self::TIER_STONE => 4,
             self::TIER_IRON => 6,
             self::TIER_DIAMOND => 8,
-            self::TIER_NETHERITE => 9,
+            self::TIER_NETHERITE => 15,
             self::TIER_GOLD => 12
         ];
 
